@@ -17,12 +17,6 @@ simple-streamlit-app/
     └── config.toml         # Streamlit theme / app configuration
 ```
 
-| Path | Purpose |
-|------|---------|
-| `streamlit_app.py` | The app. Lets you pick an example prompt (or type your own), sends it to `ai_complete()` with `show_details=True`, and renders both the model's response and the full JSON payload. |
-| `requirements.txt` | Declares the `snowflake-snowpark-python` dependency. |
-| `.streamlit/config.toml` | Streamlit configuration (theme and app settings). |
-
 ## Requirements
 
 - A Snowflake account with Cortex AI enabled
