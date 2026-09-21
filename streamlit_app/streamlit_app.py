@@ -14,6 +14,7 @@ option_map = {
     0: "Write a short poem about the first snowfall.",
     1: "What is Python?",
     2: "What is Streamlit?",
+    3: "Write a short poem about Streamlit."
 }
 
 # Create the pills widget for prompt selection
