@@ -3,7 +3,7 @@ import json
 from snowflake.snowpark.functions import ai_complete
 
 st.title(":primary[:material/network_intel_node:] Cortex Demo")
-st.info("A demo of Snowflake Cortex in action, with example prompts.")
+st.info("Pick a prompt below, or write your own, then generate a response with Snowflake Cortex.")
 
 # Initialize a variable in session state to hold the AI's response
 if 'result' not in st.session_state:
